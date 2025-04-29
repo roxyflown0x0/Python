@@ -1,0 +1,11 @@
+# Add your custom Google dorks here (one per line)
+
+site:.za "contact us" "phone" "ceo" "director" "president"
+("CEO" OR "Chief Executive Officer") AND ("Director" OR "Managing Director") AND "manufacturer" +27
+("CEO" OR "Director") site:linkedin.com/in AND "industry name"
+("CEO" OR "Managing Director") "industry name" site:za.linkedin.com/in
+("CEO" OR "Director") site:companydomain.com
+("CEO" OR "Director") "mining" site:za.linkedin.com/in
+("CEO" OR "Managing Director") "logistics company" South Africa
+"CEO" OR "Director" AND "Agriculture" AND site:linkedin.com/in
+site:.co.za inurl:"contact us" "phone" "ceo"
